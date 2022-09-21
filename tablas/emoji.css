@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:coral ;
+  font-size: 16px;
+}
+
+.lienzo1 {
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  padding: 25px;
+  border: 2px solid black;
+  margin: 50px auto;
+  position: relative;
+}
+
+.emoji {
+  background: linear-gradient(0deg, rgba(252, 72, 2, 0.9396751740139211) 0%, rgba(252, 201, 2, 1) 45%);
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+
+.izq {
+  background: black;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 75px;
+  left: 75px;
+  border-radius: 100%;
+}
+
+.der {
+  background: black;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 75px;
+  left: 145px;
+  border-radius: 100%;
+}
+
+
+
+
+.boca {
+  background: black;
+  width: 100px;
+  height: 10px;
+  position: absolute;
+  top: 165px;
+  left: 75px;
+  border-radius: 10px;
+}
+.lienzo2 {
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  padding: 25px;
+  border: 2px solid black;
+  margin: 50px auto;
+  position: relative;
+}
+.cabeza {
+  background: black;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 2px solid black;
+  position: absolute;
+  left: 90px;
+}
+.cuerpo {
+  background: black;
+  width: 10px;
+  height: 95px;
+  top: 70px;
+  left: 115px;
+  border-radius: 10px;
+  position: absolute;
+}
+.mano1 {
+  background: black;
+  width: 80px;
+  height: 10px;
+  top: 80px;
+  left: 110px;
+  border-radius: 10px;
+  position: absolute;
+  transform: rotate(-45deg)
+}
+.mano2 {
+  background: black;
+  width: 80px;
+  height: 10px;
+  top: 80px;
+  left: 50px;
+  border-radius: 10px;
+  position: absolute;
+  transform: rotate(45deg)
+}
+.pierna1 {
+  background: black;
+  width: 80px;
+  height: 10px;
+  top: 185px;
+  left: 62px;
+  border-radius: 10px;
+  position: absolute;
+  transform: rotate(-245deg)
+}
+.pierna2 {
+  background: black;
+  width: 80px;
+  height: 10px;
+  top: 185px;
+  left: 98px;
+  border-radius: 10px;
+  position: absolute;
+  transform: rotate(245deg)
+}
+
+
+
+.dibujo {
+  background-color:#fff;
+  width: 650px;
+  height: 650px;
+  text-align: center;
+  padding: 25px;
+  border: 2px solid black;
+  margin: 50px auto;
+  position: relative;
+}
+
+.sol{
+  width:150px;
+  height: 150px;
+  border-radius:100%;
+  background: yellow;
+  position: absolute;
+  top:50px;
+  left:250px;
+}
+
+
+.techo{
+  width: 0;
+  height:0;
+  border-top: 150px solid transparent;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid #572707;
+  position:absolute;
+  bottom: 200px;
+  left: 50px;
+}
+
+.nube1{
+  width:100px;
+  height: 50px;
+  border-radius:100%;
+  background: blue;
+  position: absolute;
+  top:40px;
+  left:100px;
+}
+
+.nube2{
+  width:100px;
+  height: 50px;
+  border-radius:100%;
+  background: blue;
+  position: absolute;
+  top:50px;
+  left:150px;
+}
+
+
+.nube3 {
+  width: 100px;
+  height: 50px;
+  border-radius: 100%;
+  background: blue;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+
+
+.nube4 {
+  width: 100px;
+  height: 50px;
+  border-radius: 100%;
+  background: blue;
+  position: absolute;
+  top: 60px;
+  left: 400px;
+}
+
+
+.nube5{
+  width: 100px;
+  height: 50px;
+  border-radius: 100%;
+  background: blue;
+  position: absolute;
+  top: 50px;
+  left: 450px;
+}
+
+
+.nube6 {
+  width: 100px;
+  height: 50px;
+  border-radius: 100%;
+  background: blue;
+  position: absolute;
+  top: 60px;
+  left: 500px;
+}
+
+
+
+.casa{
+	background: orangered;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 440px;
+	left: 100px;
+	border-radius: 10px;
+}
+
+
+.ventana{
+	background: wheat;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 520px;
+	left: 230px;
+	border-radius: 10px;
+}
+
+
+.puerta{
+	background: black;
+	width: 40px;
+	height: 100px;
+	position: absolute;
+	top: 540px;
+	left: 130px;
+	border-radius: 10px;
+}
+
+
+
+.tronco{
+	background: brown;
+	width: 40px;
+	height: 100px;
+	position: absolute;
+	top: 540px;
+	left: 450px;
+	border-radius: 10px;
+}
+
+.hojas{
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  background: seagreen;
+  position: absolute;
+  top: 450px;
+  right: 120px;
+}

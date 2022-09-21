@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COMIPEMS</title>
+</head>
+<body bgcolor="green,red">
+  <h1>COMIPEMS</h1>
+  <table>
+  <tr>
+     <td>Aciertos:</td>
+     <td><span id="c1"></span></td> 
+  </tr>
+  </tr> 
+ <tr>
+   <td>Folio Comipems:</td>
+   <td><span  id="c2"></td>
+   </tr>
+     <tr>
+     <td>Correo:</td>
+     <td><span id="c3"></td> 
+   </tr>
+     <tr>
+     <td>Fecha:</td>
+     <td><span id="c4"></td> 
+     </tr>
+     <tr>
+     <td>Nombre:</td>
+     <td><span id="c5"></td> 
+     <tr>
+     <td>Apellido paterno:</td>
+     <td><span id="c6"></td> 
+     </tr>
+     <tr>
+     <td>Apellido materno:</td>
+     <td><span id="c7"></span></td> 
+     </tr>
+     <tr>
+     <td>Dia:</td>
+     <td><span id="c8"></td> 
+     </tr>
+     <tr>
+     <td>Mes:</td>
+     <td><span id="c9"></span></td> 
+     </tr>
+     <tr>
+     <td>Año:</td>
+     <td><span id="c10"></td> 
+     </tr>
+     <tr>
+     <td>Lugar de nacimiento:</td>
+     <td><span  id="c11"></td> 
+     </tr>
+     <tr>
+     <td>Curp:</td>
+     <td><span  id="c12"></td> 
+     </tr>
+     <tr>
+     <td>Sexo:</td>
+     <td><span id="c13"
+     ></span>
+     </td> 
+     </tr>
+     <tr>
+     <td>Alergia:</td>
+     <td><span id="c14"></td> 
+     </tr>
+     <tr>
+     <td>Teléfono de aspirante:</td>
+     <td><span id="c15"></td> 
+     </tr>
+     <tr>
+     <td>Correo del Tutor:</td>
+     <td><span id="c16"></td> 
+     <tr>
+  </table>
+  
+  <center>
+  <form>
+  <h1> Datos COMIPEMS</h1>
+ <form action="" method="past">
+ <table>
+ <tr>
+ <td>Foto=</td>
+ <td><input type="file" name="file" ></type></td>
+ </tr> 
+ <tr>
+   <td>Folio COMIPEMS=</td>
+   <td><input type="text" name="nombre" placeholder=" escribe folio" required
+   id="folio"></td>
+  </tr>
+  <tr>
+  <td>Aciertos=</td>
+  <td><input type="number" name="aciertos" placeholder="aciertos" required= min="0" max="128" id="aciertos"></td> 
+   </tr>
+   <tr>
+   <td>Correo=</td>
+   <td><input type="email" name="email" placeholder="*****@*****.com" required id="correo"></td> 
+   </tr>
+     <tr>
+     <td>Fecha=</td>
+     <td><input type="date" name="date"placeholder="fecha" required id="fecha"></td> 
+     </tr>
+     <tr>
+     <td>Mombre=</td>
+     <td><input type="text" name="nombre"placeholder="escribe nombre"required id="nombre"></td> 
+     <tr>
+     <td>Apellido Paterno=</td>
+     <td><input type="text" name="paterno"placeholder="apellido paterno" required id="ap"></td> 
+     </tr>
+     <tr>
+     <td>Apellido Materno=</td>
+     <td><input type="txt" name="apellido materno"placeholder="apellido materno" required id="am"></td> 
+     </tr>
+     <tr>
+     <td>Dia=</td>
+     <td><input type="number" name="number"placeholder="00" required id="dia"></td> 
+     </tr>
+     <tr>
+     <td>Mes=</td>
+     <td><input type="number" name="number"placeholder="00" required id="mes"></td> 
+     </tr>
+     <tr>
+     <td>Año=</td>
+     <td><input type="number" name="number"placeholder="0000" required id="año"></td> 
+     </tr>
+     <tr>
+     <td>Lugar de nacimiento=</td>
+     <td><input type="text" name="txt"placeholder="México" required id="lgdn"></td> 
+     </tr>
+     <tr>
+     <td>Curp=</td>
+     <td><input type="text" name="text"placeholder="*********" required id="curp"></td> 
+     </tr>
+     <tr>
+     <td>Sexo=</td>
+     <td><select name="" id="sexo" >
+     <option value="masculino">masculino</option>
+     <option value="femenino">femenino</option>
+     </select>
+     </td> 
+     </tr>
+     <tr>
+     <td>Alergia=</td>
+     <td><input type="text" name="txt"placeholder="***********" required id="alergia"></td> 
+     </tr>
+     <tr>
+     <td>Teléfono de Aspirante=</td>
+     <td><input type="tel" name="tel"placeholder="0000000000" required id="tp"></td> 
+     </tr>
+     <tr>
+     <td>Correo del tutor=</td>
+     <td><input type="email" name="email"placeholder="****@*****.com" required id="ct"></td> 
+     <tr>
+     <td colspan="2"><center>
+       <button type="button" onclick="imprimir()">Guardar</button></center>
+     </tr>
+     </form></center>
+     </table>
+     <script src="main.js">main.js</script>    
+</body>
+
+</html

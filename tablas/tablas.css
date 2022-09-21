@@ -1,0 +1,39 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+ body{
+   background:coral;
+ }
+ table{
+   border:1px solid black;
+   border-collapse:collapse;
+   margin:50px auto;
+   width:90%;
+ }
+ tr{
+   border-bottom:1px solid black;
+ }
+ th{
+ background:#278dbc;
+ color:#fff;
+ font-weight:border;
+ font-size:20px;
+ padding:8px;
+}
+td{
+  font-weight:bold;
+  font-size:14px;
+  padding: 8px;
+  text-align:center;
+}
+table tr:nth-child(even){
+  background:#eee;
+}
+table tr:nth-child(odd){
+  background:#fff;
+}
+table td:hover {
+  background:silver;
+}
